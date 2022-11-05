@@ -17,9 +17,7 @@ public class JoinEvent implements Listener {
         Location loc = new Location(Bukkit.getWorld("spawn"), 0, 60, 0, 0, 0);
 
         p.teleport(loc);
+        p.setFoodLevel(8);
         Bukkit.broadcastMessage(name + " Joined the game.");
-
     }
-
-
 }
