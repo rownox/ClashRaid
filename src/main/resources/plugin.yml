@@ -2,3 +2,6 @@ name: Clashraid
 version: '${project.version}'
 main: me.rownox.clashraid.Clashraid
 api-version: 1.19
+commands:
+  start:
+    usage: "/start <create / delete> <name>"

@@ -6,7 +6,7 @@ public final class Clashraid extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        getCommand("start").setExecutor(new Clashraid());
 
     }
 
