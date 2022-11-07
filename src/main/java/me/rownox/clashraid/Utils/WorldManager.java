@@ -8,7 +8,7 @@ import org.bukkit.WorldCreator;
 import java.io.File;
 import java.io.IOException;
 
-public class WorldManager {
+public final class WorldManager {
 
     public static World cloneWorld(String name, String cloneName) {
         File origWorld = new File(Bukkit.getServer().getWorldContainer(), name);
@@ -38,7 +38,6 @@ public class WorldManager {
     }
 
     public static void deleteWorld(String worldName) {
-
         World world = Bukkit.getWorld(worldName);
         File directory = new File(Bukkit.getServer().getWorldContainer(), worldName);
         Bukkit.unloadWorld(world, false);

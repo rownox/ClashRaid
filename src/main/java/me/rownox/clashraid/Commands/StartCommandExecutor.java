@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 
 import java.util.UUID;
 
-public class StartCmd implements CommandExecutor {
+public class StartCommandExecutor implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
