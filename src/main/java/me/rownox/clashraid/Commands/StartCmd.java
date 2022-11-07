@@ -8,8 +8,6 @@ import org.bukkit.entity.Player;
 
 import java.util.UUID;
 
-import static me.rownox.clashraid.Utils.WorldManager.cloneWorld;
-
 public class StartCmd implements CommandExecutor {
 
     @Override

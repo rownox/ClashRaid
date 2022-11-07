@@ -8,6 +8,8 @@ public final class Clashraid extends JavaPlugin {
     public void onEnable() {
         getCommand("start").setExecutor(new Clashraid());
 
+        saveDefaultConfig();
+
     }
 
     @Override
